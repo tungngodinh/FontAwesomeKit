@@ -29,7 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AD6F202A1D6896B700DEF1F0 /* FontAwesomeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FontAwesomeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD6F202A1D6896B700DEF1F0 /* FontKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FontKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD6F202D1D6896B800DEF1F0 /* FontAwesomeKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FontAwesomeKit.h; sourceTree = "<group>"; };
 		AD6F20351D68970600DEF1F0 /* FAKFontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAKFontAwesome.h; sourceTree = "<group>"; };
 		AD6F20361D68970600DEF1F0 /* FAKFontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAKFontAwesome.m; sourceTree = "<group>"; };
@@ -66,7 +66,7 @@
 		AD6F20201D6896B700DEF1F0 = {
 			isa = PBXGroup;
 			children = (
-				AD6F202C1D6896B700DEF1F0 /* FontAwesomeKit */,
+				AD6F202C1D6896B700DEF1F0 /* FontKit */,
 				AD6F202B1D6896B700DEF1F0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,12 +74,12 @@
 		AD6F202B1D6896B700DEF1F0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AD6F202A1D6896B700DEF1F0 /* FontAwesomeKit.framework */,
+				AD6F202A1D6896B700DEF1F0 /* FontKit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AD6F202C1D6896B700DEF1F0 /* FontAwesomeKit */ = {
+		AD6F202C1D6896B700DEF1F0 /* FontKit */ = {
 			isa = PBXGroup;
 			children = (
 				AD6F20351D68970600DEF1F0 /* FAKFontAwesome.h */,
@@ -103,7 +103,7 @@
 				AD6F20481D68970600DEF1F0 /* octicons.ttf */,
 				AD6F20491D68970600DEF1F0 /* zocial-regular-webfont.ttf */,
 			);
-			path = FontAwesomeKit;
+			path = FontKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,9 +126,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		AD6F20291D6896B700DEF1F0 /* FontAwesomeKit */ = {
+		AD6F20291D6896B700DEF1F0 /* FontKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AD6F20321D6896B800DEF1F0 /* Build configuration list for PBXNativeTarget "FontAwesomeKit" */;
+			buildConfigurationList = AD6F20321D6896B800DEF1F0 /* Build configuration list for PBXNativeTarget "FontKit" */;
 			buildPhases = (
 				AD6F20251D6896B700DEF1F0 /* Sources */,
 				AD6F20261D6896B700DEF1F0 /* Frameworks */,
@@ -139,9 +139,9 @@
 			);
 			dependencies = (
 			);
-			name = FontAwesomeKit;
+			name = FontKit;
 			productName = FontAwesomeKit;
-			productReference = AD6F202A1D6896B700DEF1F0 /* FontAwesomeKit.framework */;
+			productReference = AD6F202A1D6896B700DEF1F0 /* FontKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -159,7 +159,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AD6F20241D6896B700DEF1F0 /* Build configuration list for PBXProject "FontAwesomeKit" */;
+			buildConfigurationList = AD6F20241D6896B700DEF1F0 /* Build configuration list for PBXProject "FontKit" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -172,7 +172,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AD6F20291D6896B700DEF1F0 /* FontAwesomeKit */,
+				AD6F20291D6896B700DEF1F0 /* FontKit */,
 			);
 		};
 /* End PBXProject section */
@@ -359,7 +359,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AD6F20241D6896B700DEF1F0 /* Build configuration list for PBXProject "FontAwesomeKit" */ = {
+		AD6F20241D6896B700DEF1F0 /* Build configuration list for PBXProject "FontKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AD6F20301D6896B800DEF1F0 /* Debug */,
@@ -368,7 +368,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AD6F20321D6896B800DEF1F0 /* Build configuration list for PBXNativeTarget "FontAwesomeKit" */ = {
+		AD6F20321D6896B800DEF1F0 /* Build configuration list for PBXNativeTarget "FontKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AD6F20331D6896B800DEF1F0 /* Debug */,
