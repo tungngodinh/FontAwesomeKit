@@ -1,11 +1,12 @@
 Pod::Spec.new do |s|
   s.name         = "FontKit"
-  s.version      = "3.0.1"
+  s.version      = "3.0.2"
   s.summary      = "Icon font library for iOS."
   s.license      = 'MIT'
+  s.homepage     = "https://emso.vn"
   s.author       = { "cau ca" => "ngodinhtung91@gmail.com" }
-  s.source       = { :git => "git@github.com:tungngodinh/FontAwesomeKit.git", :tag => '3.0.1' }
-  s.ios.deployment_target = '6.0'
+  s.source       = { :git => "git@github.com:tungngodinh/FontAwesomeKit.git", :tag => '3.0.2' }
+  s.ios.deployment_target = '9.0'
   s.ios.frameworks = 'UIKit', 'CoreText'
   s.source_files = 'FontAwesomeKit/FontAwesomeKit.h'
   s.requires_arc = true
